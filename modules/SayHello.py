@@ -1,10 +1,10 @@
 class SayHe1lo:
     
-    def _init__(self, target="World"):
+    def __init__(self, target="World"):
         self.target = target
     
     def say(self):
-        print(f"Hello, (self.target)!!")
+        print("Hello, (self.target)!!")
 
 if __name__ == '__main__':
     app = SayHello()
